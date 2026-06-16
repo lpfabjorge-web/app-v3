@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrea Valdivia",
+      "email": "avaldivia@unsa.edu.pe",
+      "campus": "Ingenierías",
+      "avatar": "AV",
+      "interests": ["Deportes", "Académico", "Arte"],
+      "busy_schedule": [
+        { "day": "Lunes", "start": "08:00", "end": "10:30", "title": "Cálculo III" },
+        { "day": "Lunes", "start": "13:00", "end": "15:00", "title": "Física" },
+        { "day": "Martes", "start": "09:00", "end": "12:00", "title": "Programación" },
+        { "day": "Miércoles", "start": "10:00", "end": "13:00", "title": "Base de Datos" },
+        { "day": "Jueves", "start": "14:00", "end": "17:00", "title": "Laboratorio" },
+        { "day": "Viernes", "start": "08:00", "end": "11:00", "title": "Matemática Discreta" }
+      ],
+      "saved_activities": [],
+      "attended_activities": []
+    }
+  ],
+  "activities": [
+    {
+      "id": 101,
+      "title": "Taller de Robótica Básica",
+      "category": "Académico",
+      "campus": "Ingenierías",
+      "day": "Lunes",
+      "start": "11:00",
+      "end": "12:30",
+      "location": "Pabellón de Electrónica, Lab 2",
+      "spots_available": 5,
+      "total_spots": 20,
+      "description": "Aprende los fundamentos de la robótica utilizando placas Arduino y componentes básicos. Ideal para estudiantes de primeros ciclos."
+    },
+    {
+      "id": 102,
+      "title": "Gimnasio IDUNSA",
+      "category": "Deportes",
+      "campus": "Sociales",
+      "day": "Martes",
+      "start": "12:30",
+      "end": "14:00",
+      "location": "Estadio Hoja Redonda",
+      "spots_available": 15,
+      "total_spots": 30,
+      "description": "Sesión libre de musculación en las instalaciones del estadio universitario."
+    },
+    {
+      "id": 103,
+      "title": "Asesoría de Tesis",
+      "category": "Académico",
+      "campus": "Biomédicas",
+      "day": "Viernes",
+      "start": "11:30",
+      "end": "13:00",
+      "location": "Biblioteca Biomédicas",
+      "spots_available": 2,
+      "total_spots": 10,
+      "description": "Asesoramiento gratuito sobre metodología de la investigación."
+    },
+    {
+      "id": 104,
+      "title": "Comedor Universitario",
+      "category": "Servicios",
+      "campus": "Sociales",
+      "day": "Miércoles",
+      "start": "13:00",
+      "end": "14:30",
+      "location": "Comedor Central",
+      "spots_available": 100,
+      "total_spots": 500,
+      "description": "Almuerzo para estudiantes con ticket vigente."
+    },
+    {
+      "id": 105,
+      "title": "Charla: Salud Mental",
+      "category": "Bienestar",
+      "campus": "Ingenierías",
+      "day": "Jueves",
+      "start": "10:30",
+      "end": "12:00",
+      "location": "Auditorio William Morris",
+      "spots_available": 50,
+      "total_spots": 100,
+      "description": "Estrategias para el manejo del estrés y la ansiedad en el entorno universitario."
+    }
+  ]
+}
